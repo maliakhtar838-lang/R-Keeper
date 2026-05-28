@@ -43,3 +43,20 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Sensitive Android files
+**/android/local.properties
+**/android/key.properties
+**/android/app/google-services.json
+**/*.keystore
+**/*.jks
+
+# Sensitive iOS files
+**/ios/Runner/GoogleService-Info.plist
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Pods/
+**/ios/.symlinks/
+
+# Environment variables
+.env*
